@@ -1,0 +1,10 @@
+<%= form_for(@question, html: { multipart: true }) do |f| %>
+  <%= render 'errors', question: @question %>
+
+  <%= f.cropbox :car_image %>
+  <%= f.crop_preview :car_image %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

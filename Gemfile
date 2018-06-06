@@ -15,6 +15,10 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 gem 'jquery-rails'
 
+gem 'paperclip'
+gem 'papercrop'
+gem 'aws-sdk'
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
